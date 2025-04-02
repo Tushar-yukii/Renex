@@ -1,0 +1,17 @@
+body {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+  font-size: 62.5%;
+  background-color: white;
+}
+.navbar {
+  display: flex;
+  font-size: 1.4rem;
+  justify-content: center;
+}
+.navbar a {
+  text-decoration: none;
+  color: black;
+  padding: 1.2rem 1.4rem;
+}
