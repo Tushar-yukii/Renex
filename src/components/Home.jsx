@@ -2,7 +2,7 @@ import React from 'react'
 
 const Home = () => {
   return (
-    <div style={{color:'black'}}>
+    <div style={{color:'white'}}>
       homepage
     </div>
   )
