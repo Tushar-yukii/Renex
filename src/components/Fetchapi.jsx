@@ -1,6 +1,6 @@
 import React, { useEffect, useState } from "react";
 import axios from "axios";
-// import { data } from "react-router-dom";
+import { data } from "react-router-dom";
 import Card from "./Card";
 const Fetchapi = () => {
   const [anime, setAnime] = useState([]);
@@ -16,11 +16,11 @@ const Fetchapi = () => {
     fetch();
   }, []);
   return (
-    <div>
-      {anime?.map((naruto) => {
-        <Card all={naruto} />
-      })}
-      {console.log(anime)};
+    <div className="cards">
+      {anime?.map(anime=>(
+        <Card all={anime}/>
+      ))}
+      {console.log(anime)}
     </div>
   );
 };

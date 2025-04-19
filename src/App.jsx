@@ -3,18 +3,18 @@ import { BrowserRouter, Route, Routes } from "react-router-dom";
 import "./App.css";
 import Home from "./components/Home";
 import Navbar from "./components/Navbar";
-import Fetchapi from "./components/Fetchapi";
+import Animedetail from "./detailpage/Animedetail";
 const App = () => {
   return (
     <BrowserRouter>
-    <Navbar />
-    <Fetchapi />
+      <Navbar />
+
       <Routes>
         <Route path="/" element={<Home />} />
-        
+        <Route path="/anime/:id" element={<Animedetail />} />
+
       </Routes>
     </BrowserRouter>
-    
   );
 };
 

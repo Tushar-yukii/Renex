@@ -30,3 +30,32 @@ body {
   margin-top: 20px;
   
 }
+.cards{
+  margin: 0 auto;
+
+  width: 1640px;
+  display: grid;
+  grid-template-columns: repeat(8, 190px);
+  gap: 1rem;
+  
+}
+.card{
+
+}
+.cardimg{
+  width: 100%;
+ 
+  
+}
+.cardimg img{
+  width: 100%;
+  height: 285px;
+
+}
+.card h1{
+  font-size: 1.2rem;
+}
+a{
+  text-decoration: none;
+  color: #f6ecec;
+}

@@ -1,11 +1,16 @@
 import React from "react";
+import { Link } from "react-router-dom";
 
 const Card = ({ all }) => {
   return (
-    <>
-      <img src={all.images.jpg.small_image_url} alt="" />
+    <Link to={`/anime/${all.title}`}>
+    <div className="card">
+      <div className="cardimg">
+        <img src={all.images.jpg.image_url} alt="" />
+      </div>
       <h1>{all.title}</h1>
-    </>
+    </div>
+    </Link>
   );
 };
 

@@ -1,11 +1,11 @@
 import React from 'react'
-
+import Fetchapi from "./Fetchapi"
 const Home = () => {
   return (
-    <div style={{color:'white'}}>
-      homepage
+    <div>
+    <Fetchapi />  
     </div>
-  )
+      )
 }
 
 export default Home
