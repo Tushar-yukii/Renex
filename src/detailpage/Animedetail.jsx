@@ -18,13 +18,14 @@ const Animedetail = () => {
     fetch();
   }, []);
   return (
-    <div>
+    <div className="para">
       {anime.map((all) => (
-        <div className="carddetail">
+        <div className="carddetail" key={all.mal_id}>
           <div className="cardimage">
             <img src={all.images.jpg.image_url} alt="" />
           </div>
           <h1>{all.title}</h1>
+          <p>{all.synopsis}</p>
         </div>
       ))}
     </div>

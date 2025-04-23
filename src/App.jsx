@@ -10,9 +10,10 @@ const App = () => {
       <Navbar />
 
       <Routes>
+        <Route path="/:id" element={<Home />} />
         <Route path="/" element={<Home />} />
-        <Route path="/anime/:id" element={<Animedetail />} />
 
+        <Route path="/anime/:id" element={<Animedetail />} />
       </Routes>
     </BrowserRouter>
   );
