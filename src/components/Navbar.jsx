@@ -6,8 +6,16 @@ const Navbar = () => {
     <div className="navbar">
       <Link to="/">Home</Link>
       <form className="d-flex" role="search">
-      <input className="form-control me-2" type="search" placeholder= " Search Anime..." aria-label="Search"/>
-    </form>
+        <input
+          className="search"
+          type="search"
+          placeholder="Search Anime..."
+          aria-label="Search"
+        />
+      </form>
+      <button className="centersearch" type="submit">
+        Search
+      </button>
       <Link to="/anime">Anime</Link>
       <Link to="/manga">Manga</Link>
     </div>
