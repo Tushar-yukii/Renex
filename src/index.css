@@ -1,7 +1,9 @@
 @import "tailwindcss";
 
 * {
-  color: white;
+  color: rgb(221, 207, 207);
+  font-size: 20px;
+  /* error */
 }
 
 body {
@@ -20,10 +22,9 @@ body {
   justify-content: center;
 }
 .navbar a {
-   text-decoration: none;
+  text-decoration: none;
 
-   padding: 1.7rem 1.3rem;
- 
+  padding: 1.7rem 1.3rem;
 }
 .navbar input {
   border-radius: 100px;
@@ -31,19 +32,17 @@ body {
   margin-top: 15px;
   margin: 25px;
   padding: 0.3rem 8rem;
-  
 }
-.navbar .search{
+.navbar .search {
   padding-left: 14px;
   color: whitesmoke;
 }
-.navbar .centersearch{
-     color: aliceblue;
-   display: flex;
-   justify-content: center;
-   align-items: center;
-   /* error */
-   
+.navbar .centersearch {
+  color: aliceblue;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  /* error */
 }
 .cards {
   margin: 0 auto;
@@ -63,9 +62,11 @@ body {
   height: 285px;
   border-radius: 1.5rem;
 }
+
 .card h1 {
   font-size: 1.2rem;
 }
+
 a {
   text-decoration: none;
   color: #f6ecec;
