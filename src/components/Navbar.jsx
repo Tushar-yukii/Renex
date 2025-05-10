@@ -13,9 +13,7 @@ const Navbar = () => {
           aria-label="Search"
         />
       </form>
-      <button className="centersearch" type="submit">
-        Search
-      </button>
+
       <Link to="/anime">Anime</Link>
       <Link to="/manga">Manga</Link>
     </div>
