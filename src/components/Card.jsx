@@ -10,6 +10,7 @@ const Card = ({ all }) => {
         </div>
         <h1>{all.title}</h1>
       </div>
+   
     </Link>
   );
 };
