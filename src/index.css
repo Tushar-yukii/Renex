@@ -52,7 +52,7 @@ body {
   grid-template-columns: repeat(8, 190px);
   gap: 1rem;
 }
-.
+
 .cardimg {
   width: 100%;
 }
@@ -63,12 +63,14 @@ body {
 }
 
 .card h1 {
-  font-size: 1.2rem;
+  font-size: 0.9rem;
+  text-align: center;
 }
 
 a {
   text-decoration: none;
   color: #f6ecec;
+  
 }
 .para {
   width: 1090px;
