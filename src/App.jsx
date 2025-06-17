@@ -4,8 +4,11 @@ import "./App.css";
 import Home from "./components/Home";
 import Navbar from "./components/Navbar";
 import Animedetail from "./detailpage/Animedetail";
+import Popular from "./components/Popular";
 const App = () => {
   return (
+    <>
+     <Popular />
     <BrowserRouter>
       <Navbar />
 
@@ -16,6 +19,8 @@ const App = () => {
         <Route path="/anime/:id" element={<Animedetail />} />
       </Routes>
     </BrowserRouter>
+       
+</>
   );
 };
 
