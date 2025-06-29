@@ -8,19 +8,18 @@ import Popular from "./components/Popular";
 const App = () => {
   return (
     <>
-     <Popular />
-    <BrowserRouter>
-      <Navbar />
+      <Popular />
+      <BrowserRouter>
+        <Navbar />
 
-      <Routes>
-        <Route path="/:id" element={<Home />} />
-        <Route path="/" element={<Home />} />
+        <Routes>
+          <Route path="/:id" element={<Home />} />
+          <Route path="/" element={<Home />} />
 
-        <Route path="/anime/:id" element={<Animedetail />} />
-      </Routes>
-    </BrowserRouter>
-       
-</>
+          <Route path="/anime/:id" element={<Animedetail />} />
+        </Routes>
+      </BrowserRouter>
+    </>
   );
 };
 

@@ -1,7 +1,7 @@
 @import "tailwindcss";
 
 * {
-  color: rgb(221, 207, 207);
+  color: rgb(229, 214, 214);
   font-size: 20px;
   /* error */
 }
@@ -12,7 +12,7 @@ body {
   box-sizing: border-box;
   font-size: 62.5%;
 
-  background-color: #e6dee9;
+  background-color: #dfdae2;
   height: 100vh;
   width: 100%;
 }

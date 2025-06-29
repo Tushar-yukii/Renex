@@ -19,7 +19,7 @@ const Animedetail = () => {
     );
     setAnime(data.data.data);
   };
-
+                           
   useEffect(() => {
     fetch();
   }, []);
