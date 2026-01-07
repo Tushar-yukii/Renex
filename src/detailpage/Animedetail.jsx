@@ -6,13 +6,7 @@ const Animedetail = () => {
   const [anime, setAnime] = useState([]);
 
   const { id } = useParams();
-  // console.log(id);
-
-
-    // destructure anime
-     // hold  code
-   
-
+ 
   const fetch = async () => {
     const data = await axios.get(
       `https://api.jikan.moe/v4/anime?q=${id}&limit=1`

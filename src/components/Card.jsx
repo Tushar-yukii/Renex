@@ -6,7 +6,7 @@ const Card = ({ all }) => {
     <Link to={`/anime/${all.title}`}>
       <div className="card">
         <div className="cardimg">
-          <img src={all.images.jpg.image_url} alt="" />
+          <img src={all.images.jpg.image_url} alt="card-img" />
         </div>
         <h1>{all.title}</h1>
       </div>
