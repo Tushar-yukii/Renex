@@ -6,14 +6,14 @@ const Animedetail = () => {
   const [anime, setAnime] = useState([]);
 
   const { id } = useParams();
- 
+
   const fetch = async () => {
     const data = await axios.get(
-      `https://api.jikan.moe/v4/anime?q=${id}&limit=1`
+      `https://api.jikan.moe/v4/anime?q=${id}&limit=1`,
     );
     setAnime(data.data.data);
   };
-                           
+
   useEffect(() => {
     fetch();
   }, []);
@@ -25,7 +25,7 @@ const Animedetail = () => {
             <img src={all.images.jpg.image_url} alt="" />
           </div>
           <h1>{all.title}</h1>
-          <p>{all.synopsis}</p>
+          <p className="details">{all.synopsis}</p>
         </div>
       ))}
     </div>

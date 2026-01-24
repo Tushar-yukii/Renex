@@ -5,7 +5,8 @@ const Popular = () => {
     <div>
       <h1 style={{ backgroundColor: "black" }}>popular</h1>
     </div>
-  );``
+  );
+  ``;
 };
 
 export default Popular;
